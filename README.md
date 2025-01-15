@@ -1,2 +1,2 @@
-# cacapstone-employee-attrition
+# capstone-employee-attrition
 WGU Capstone project 
