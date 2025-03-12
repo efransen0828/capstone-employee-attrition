@@ -37,6 +37,18 @@ capstone-employee-attrition/
 ├── README.md               # Project documentation (this file)
 └── requirements.txt        # Python dependencies
 
+## Code for Model Creation & Management
+The primary Jupyter Notebook for data preprocessing, machine learning model training, and evaluation is located in:
+**notebooks/employee_attrition_analysis.ipynb**
+
+This notebook contains:
+- Exploratory Data Analysis (EDA): Visualizing and summarizing trends in the dataset.
+- Feature Engineering & Data Preprocessing: Handling categorical variables, scaling numeric features, and balancing the dataset.
+- Machine Learning Models: Training Logistic Regression, Random Forest, and XGBoost for attrition prediction.
+- Model Evaluation: Assessing model performance using accuracy, precision, recall, F1-score, and AUC-ROC.
+- Hyperparameter Tuning: Optimizing model parameters for better predictions.
+- Feature Importance Analysis: Understanding which factors influence attrition the most.
+  
 ## Analytical Methods
 
 The analysis process involved:
@@ -64,9 +76,16 @@ The best-performing model, Logistic Regression, achieved:
 
 1. Clone the repository:
    git clone https://github.com/efransen0828/capstone-employee-attrition.git
-2. Install dependencies:
+2. Create a virtual environment and install dependencies:
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
-3. Navigate through notebooks to explore the analysis, modeling, and results:
+3. Run Jupyter Notebook to explore the model:
+   jupyter lab
+
+   OR
+   
+4. Navigate through notebooks to explore the analysis, modeling, and results:
    notebooks/employee_attrition_analysis.ipynb for exploratory analysis and predictive modeling.
 
 ## Author
@@ -75,3 +94,4 @@ Erika Fransen
 ## License
 This project is provided for educational purposes.
    
+ 
